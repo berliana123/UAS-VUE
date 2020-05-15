@@ -24,7 +24,7 @@
         <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-              <div class="modal-header" style="background-color: #cf1717;">
+              <div class="modal-header" style="background-color: #005e96;">
                 <h5 class="modal-title" id="exampleModalCenterTitle" style="color:white;">Login</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
@@ -40,7 +40,7 @@
                   <input v-model="userLogin.passwordLogin" type="password" class="form-control" id="exampleInputPassword1">
                 </div>
               </div>
-              <div class="modal-footer" style="background-color: #cf1717;">
+              <div class="modal-footer" style="background-color: #005e96;">
                 <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#registerModal">Register</button>
                 <a href="" type="button" class="btn btn-outline-light" @click.prevent="signIn" data-dismiss="modal">Sign In</a>
               </div>
@@ -52,7 +52,7 @@
         <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-              <div class="modal-header" style="background-color: #cf1717;">
+              <div class="modal-header" style="background-color: #005e96;">
                 <h5 class="modal-title" id="exampleModalCenterTitle" style="color:white;">Register Akun</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
@@ -68,7 +68,7 @@
                   <input v-model="userRegister.passwordRegister" type="password" class="form-control" id="exampleInputPassword2">
                 </div>
               </div>
-              <div class="modal-footer" style="background-color: #cf1717;">
+              <div class="modal-footer" style="background-color: #005e96;">
                 <a href="" type="button" class="btn btn-outline-light" @click.prevent="signUp" data-dismiss="modal">Sign Up</a>
               </div>
             </div>

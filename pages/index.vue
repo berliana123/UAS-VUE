@@ -9,7 +9,7 @@
     <div class="alert alert-danger text-center" role="alert" style="margin-top: -10px;">
       <h4>Area</h4>
       <div v-for="a in area" v-bind:key="a.idArea" style="display: inline !important;">
-        <a class="link-area" style="margin-left: 20px;" @click="filterArea(a.strArea)"> {{a.strArea}} </a>
+        <a class="link-area" style="margin-left: 20px; color: #ac6730;" @click="filterArea(a.strArea)"> {{a.strArea}} </a>
       </div>
     </div>
   <div class="container">
@@ -43,7 +43,7 @@
     <div class="modal fade" id="staticBackdrop" data-backdrop="static"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
         <div class="modal-content">
-          <div class="modal-header" style="background-color: #cf1717;">
+          <div class="modal-header" style="background-color: #005e96;">
             <h5 class="modal-title" id="exampleModalCenterTitle" style="color: white;">Detail Makanan</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" @click="keluar()">
               <span aria-hidden="true">&times;</span>
@@ -108,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="modal-footer" style="background-color: #cf1717;">
+          <div class="modal-footer" style="background-color: #005e96;">
             <button type="button" class="btn btn-outline-light" data-dismiss="modal" @click="keluar()">Close</button>
           </div>
         </div>
@@ -119,10 +119,11 @@
     <div class="alert alert-dark text-center" role="alert" style="margin-top: 10px;">
       <h2>Ingredients</h2>
       <div v-for="b in bahan" v-bind:key="b.idIngredient" style="display: inline !important;">
-        <a class="link-bahan" style="margin-left: 20px;" @click="filterBahan(b.strIngredient)"> {{b.strIngredient}} </a>
+        <a class="link-bahan" style="margin-left: 20px;"  @click="filterBahan(b.strIngredient)"> {{b.strIngredient}} </a>
       </div>
     </div>
 </div>
+
 </template>
 
 <script>

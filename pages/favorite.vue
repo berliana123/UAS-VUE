@@ -20,7 +20,7 @@
     <div class="modal fade" id="staticBackdrop" data-backdrop="static"  tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
         <div class="modal-content">
-          <div class="modal-header" style="background-color: #cf1717;">
+          <div class="modal-header" style="background-color: #005e96;">
             <h5 class="modal-title" id="exampleModalCenterTitle" style="color: white;">Detail Makanan</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" @click="keluar()">
               <span aria-hidden="true">&times;</span>
@@ -85,7 +85,7 @@
               </div>
             </div>
           </div>
-          <div class="modal-footer" style="background-color: #cf1717;">
+          <div class="modal-footer" style="background-color: #005e96;">
             <button type="button" class="btn btn-outline-light" data-dismiss="modal" @click="keluar()">Tutup</button>
           </div>
         </div>
